@@ -1,0 +1,16 @@
+# ide
+.vscode/
+
+# build outupt
+dist/
+*.egg-info/
+__pycache__/
+
+# coverage
+.coverage
+*.code-workspace
+
+# misc
+*.log
+[.-]tmp
+[.-]tox
