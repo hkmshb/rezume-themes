@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, user-scalable=no, minimal-ui'>
+  <title>{{rezume.basics.name}}</title>
+  <style>
+  {{css}}
+  </style>
+<head>
+</head>
+<body>
+  <div id='rezume'>
+    {{#rezume.basics}}
+    <div id='name-block' class='large-font'>
+      <span class='name'>
+        {{name}}
+      </span>
+      <span class='label'>
+        {{label}}
+      </span>
+    </div>
+    {{/rezume.basics}}
+  </div>
+</body>
+</html>
